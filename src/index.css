@@ -1,12 +1,13 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
   overflow: hidden;
+  background-image: url(./components/bgimg.jpg);
 }
 
 .header {
   padding: 10px;
-  background-color: firebrick;
+  background-color: rgba(7, 176, 255, 0.308);
   color: #fff;
   position: fixed;
   top: 0;
@@ -51,22 +52,26 @@ body {
 
 .location-info {
   position: absolute;
-  top: 80px;
-  right: 50px;
-  width: 400px;
+  top: 60px;
+  right: 5px;
+  width: 200px;
   min-height: 200px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  font-size: 18px;
+  font-size: small;
   color: #fff;
 }
 
 .location-info ul {
   list-style-type: none;
+  font-size: small;
   padding: 0;
 }
 
 .location-info li {
+  font-size: small;
   padding: 5px 0;
 }
+
+
